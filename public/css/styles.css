@@ -156,66 +156,67 @@ p a {
 
 @media screen and (max-width:600px){
   body{
-    width: 200;
-    position: fixed;
+    width: 12rem;
+    /* position: fixed; */
   }
   h2 {
-    font-size:64px;
-    margin-bottom: 16px;
+    font-size:2.4rem;
+    margin-bottom: 16rem;
     text-align: center;
   }
   .widget {
     position: fixed;
-    align: center;
+    align-items: center;
     top: 50%;
     left: 50%;
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 24rem;
+    width: 24rem;
     transform: translate(-50%, -50%);
     flex-wrap: wrap;
     cursor: pointer;
-    border-radius: 20px;
-    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    border-radius: .1rem;
+    /* box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15); */
   }
   .widget .weatherInfo {
     /* height: 70%; */
-    border-bottom-left-radius: 50px;
+    border-bottom-left-radius: .50rem;
      }
 
      .widget .date {
       /* height: 70%; */
-      border-bottom-right-radius: 50px;
-      font-size: 40px;
-      font-weight: 800;
+      border-bottom-right-radius: .50rem;
+      font-size: 2rem;
+      font-weight: 600;
     }
     input[type=text] {
-      width: 100%;
-      padding: 12px 20px;
+      width: 20rem;
+      padding: 1.2rem 2.0rem;
       margin: 8px 0;
       box-sizing: border-box;
-      height: 70px;
+      height: .70rem;
       border-radius: 20px;
-      font-size: 30px;
+      font-size: 1rem;
     }
     .weatherLocation {
       display: flex;
       align-items: center;
-      width: 330px;
+      
+      width: -auto;
       justify-content: center;
-      padding: 2rem;
+      padding: .2rem;
       background-color: #fafafa;
       flex-direction: column;
-      font-size: 30px;
+      font-size: 1rem;
 
   }
   .weatherLocation button {
     background: #080705;
     color: #fff;
     border: 1px solid transparent;
-    height: 70px;
-    width: 330px;
-    border-radius: 20px;
-    font-size: 30px;
+    height: 2rem;
+    width: 19rem;
+    border-radius: 20rem;
+    font-size: 1rem;
 }
 }
