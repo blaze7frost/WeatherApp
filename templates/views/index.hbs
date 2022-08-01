@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{title}}</title>
         <link rel="stylesheet" href="css/styles.css"/> <!-- static path for public folder is already set in app.js -->
     </head>
@@ -8,7 +9,7 @@
         <div class="main-content">
             {{>header}}
             <article class="widget">
-                <form class="weatherLocation"><input placeholder="location..." type = "text"/><button>Search</button>
+                <form class="weatherLocation"><input placeholder="location..."  type = "text" /><button>Search</button>
                 {{!-- <button type="button" class="weatherLocation">Dark</button> --}}
                 </form>
                 <div class="weatherIcon"><i class="wi wi-day-cloudy"></i></div>
