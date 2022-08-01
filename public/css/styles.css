@@ -173,7 +173,7 @@ p a {
     left: 50%;
     display: flex;
     height: 24rem;
-    width: 18rem;
+    width: 20rem;
     transform: translate(-50%, -50%);
     flex-wrap: wrap;
     cursor: pointer;
